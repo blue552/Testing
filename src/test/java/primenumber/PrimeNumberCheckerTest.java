@@ -25,3 +25,4 @@ public class PrimeNumberCheckerTest {
         assertTrue(checker.isPrime(7));
     }
 }
+//test case
