@@ -24,5 +24,12 @@ public class PrimeNumberCheckerTest {
         assertFalse(checker.isPrime(-5));
         assertTrue(checker.isPrime(7));
     }
+    @Test
+    public void testLargePrimes() {
+        assertTrue(checker.isPrime(29));
+        assertTrue(checker.isPrime(97));
+        assertFalse(checker.isPrime(100));
+        assertTrue(checker.isPrime(101));
+    }
 }
 //test case
